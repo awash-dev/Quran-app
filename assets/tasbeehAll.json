@@ -1,0 +1,336 @@
+{
+  "adhkar": [
+    {
+      "id": "1",
+      "name": "Subhan Allah",
+      "arabic": "سُبْحَانَ ٱللَّٰهِ",
+      "translation": "Glory be to Allah",
+      "virtue": "Removes sins and earns good deeds",
+      "recommended": 33,
+      "category": "daily",
+      "fullText": "Subhan Allah (سُبْحَانَ ٱللَّٰهِ) is a profound expression of Allah's absolute perfection and transcendence above all deficiencies. It acknowledges that Allah is free from all imperfections, partners, and needs. Regular recitation cultivates humility and a proper understanding of Allah's greatness. The Prophet Muhammad (peace be upon him) emphasized its significance, stating that it is beloved to Allah and carries immense reward.",
+      "history": "The concept of tasbeeh is deeply rooted in Islamic tradition, mentioned throughout the Quran. The Prophet Muhammad regularly practiced this dhikr, and it has been a consistent practice among Muslims through generations.",
+      "hadith": [
+        {
+          "text": "\"Two words are light on the tongue, heavy on the scales, beloved to the Most Merciful: Subhan Allah wa bihamdihi, Subhan Allah al-Adheem.\"",
+          "source": "Bukhari and Muslim"
+        },
+        {
+          "text": "\"Whoever says: 'Subhan Allah wa bihamdihi,' one hundred times during the day, his sins will be wiped away, even if they were like the foam of the sea.\"",
+          "source": "Bukhari"
+        }
+      ],
+      "practicalGuidance": "Recite Subhan Allah after each prayer, during morning and evening remembrances, and when observing creation."
+    },
+    {
+      "id": "2",
+      "name": "Alhamdulillah",
+      "arabic": "ٱلْحَمْدُ لِلَّٰهِ",
+      "translation": "Praise be to Allah",
+      "virtue": "Fills the scales with rewards",
+      "recommended": 33,
+      "category": "daily",
+      "fullText": "Alhamdulillah (ٱلْحَمْدُ لِلَّٰهِ) means \"All praise is due to Allah.\" This expression acknowledges that all blessings come from Allah. The Prophet Muhammad said: \"Alhamdulillah fills the scale, and Subhan Allah and Alhamdulillah fill what is between the heavens and the earth.\"",
+      "history": "The phrase appears in the Quran and was frequently used by the Prophet Muhammad.",
+      "hadith": [
+        {
+          "text": "\"Alhamdulillah fills the scale, and Subhan Allah and Alhamdulillah fill what is between the heavens and the earth.\"",
+          "source": "Muslim"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Allahu Akbar",
+      "arabic": "ٱللَّٰهُ أَكْبَرُ",
+      "translation": "Allah is the Greatest",
+      "virtue": "Rewards fill the space between heaven and earth",
+      "recommended": 33,
+      "category": "daily",
+      "fullText": "Allahu Akbar (ٱللَّٰهُ أَكْبَرُ) means \"Allah is the Greatest.\" This expression affirms that Allah surpasses everything in existence. It is integral to Islamic worship, used in prayers and during the adhan.",
+      "history": "The takbir has been part of Islamic practice since the time of the Prophet Muhammad.",
+      "hadith": [
+        {
+          "text": "\"The most beloved phrases to Allah are four: Subhan Allah, Alhamdulillah, La ilaha illallah, and Allahu Akbar.\"",
+          "source": "Muslim"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "La ilaha illallah",
+      "arabic": "لَا إِلَٰهَ إِلَّا ٱللَّٰهُ",
+      "translation": "There is no god but Allah",
+      "virtue": "Best form of remembrance, erases sins",
+      "recommended": 100,
+      "category": "daily",
+      "fullText": "La ilaha illallah (لَا إِلَٰهَ إِلَّا ٱللَّٰهُ) is the fundamental declaration of faith in Islam, affirming the oneness of Allah. The Prophet Muhammad said: \"The best remembrance is La ilaha illallah.\"",
+      "history": "This declaration is the foundation of Islamic faith, emphasized by all prophets.",
+      "hadith": [
+        {
+          "text": "\"Whoever says La ilaha illallah sincerely will enter Paradise.\"",
+          "source": "Bukhari"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Astaghfirullah",
+      "arabic": "أَسْتَغْفِرُ ٱللَّٰهَ",
+      "translation": "I seek forgiveness from Allah",
+      "virtue": "Brings forgiveness and relief from distress",
+      "recommended": 100,
+      "category": "daily",
+      "fullText": "Astaghfirullah (أَسْتَغْفِرُ ٱللَّٰهَ) means \"I seek forgiveness from Allah.\" This expression is a direct appeal for forgiveness of sins. The Prophet Muhammad emphasized its importance, seeking forgiveness frequently.",
+      "history": "Seeking forgiveness is a consistent practice in Islam, highlighted in the Quran.",
+      "hadith": [
+        {
+          "text": "\"By Allah, I seek forgiveness from Allah and repent to Him more than seventy times a day.\"",
+          "source": "Bukhari"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "La hawla wa la quwwata illa billah",
+      "arabic": "لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِٱللَّٰهِ",
+      "translation": "There is no might nor power except with Allah",
+      "virtue": "A treasure from the treasures of Paradise",
+      "recommended": 100,
+      "category": "special",
+      "fullText": "La hawla wa la quwwata illa billah (لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِٱللَّٰهِ) expresses our complete dependence on Allah. The Prophet Muhammad described it as a treasure from Paradise.",
+      "history": "This phrase emphasizes reliance on Allah during times of hardship.",
+      "hadith": [
+        {
+          "text": "\"It is a treasure from the treasures of Paradise.\"",
+          "source": "Bukhari and Muslim"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Salawat on the Prophet",
+      "arabic": "اللَّهُمَّ صَلِّ عَلَىٰ مُحَمَّدٍ وَعَلَىٰ آلِ مُحَمَّدٍ",
+      "translation": "O Allah, send blessings upon Muhammad and the family of Muhammad",
+      "virtue": "Allah sends ten blessings upon you for each one you send on the Prophet",
+      "recommended": 100,
+      "category": "special",
+      "fullText": "Sending blessings upon the Prophet Muhammad ﷺ is a unique form of worship that connects the believer with Allah. The Prophet taught various forms of salawat, emphasizing their spiritual benefits.",
+      "history": "Sending blessings on the Prophet was legislated in the Quran, highlighting its significance.",
+      "hadith": [
+        {
+          "text": "\"Whoever sends blessings upon me once, Allah will send blessings upon him tenfold.\"",
+          "source": "Muslim"
+        }
+      ],
+      "practicalGuidance": "Recite salawat during prayers, after the adhan, and in supplications."
+    },
+    {
+      "id": "8",
+      "name": "Hasbunallahu wa ni'mal wakeel",
+      "arabic": "حَسْبُنَا ٱللَّٰهُ وَنِعْمَ ٱلْوَكِيلُ",
+      "translation": "Allah is sufficient for us, and He is the Best Disposer of affairs",
+      "virtue": "Brings peace and protection",
+      "recommended": 100,
+      "category": "protection",
+      "fullText": "Hasbunallahu wa ni'mal wakeel expresses complete trust in Allah's plan. It was uttered by Prophet Ibrahim during trials and is mentioned in the Quran.",
+      "history": "This phrase highlights reliance on Allah during challenges.",
+      "hadith": [
+        {
+          "text": "\"When Ibrahim was thrown into the fire, he said: 'Hasbunallahu wa ni'mal wakeel.'\"",
+          "source": "Bukhari"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Subhanallahi wa bihamdihi",
+      "arabic": "سُبْحَانَ ٱللَّٰهِ وَبِحَمْدِهِ",
+      "translation": "Glory and praise be to Allah",
+      "virtue": "Heavy on the scales and beloved to Allah",
+      "recommended": 100,
+      "category": "daily",
+      "fullText": "Subhanallahi wa bihamdihi combines glorification and praise, making it beloved to Allah. The Prophet Muhammad recommended its recitation for forgiveness of sins.",
+      "history": "This phrase is highly regarded in Islamic teachings.",
+      "hadith": [
+        {
+          "text": "\"Whoever says Subhanallahi wa bihamdihi one hundred times a day will have his sins forgiven.\"",
+          "source": "Bukhari and Muslim"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Ayatul Kursi",
+      "arabic": "ٱللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ ۚ لَا تَأْخُذُهُ سِنَةٌ وَلَا نَوْمٌ ۚ لَهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ ۗ مَنْ ذَا الَّذِي يَشْفَعُ عِنْدَهُ إِلَّا بِإِذْنِهِ ۚ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ ۖ وَلَا يُحِيطُونَ بِشَيْءٍ مِنْ عِلْمِهِ إِلَّا بِمَا شَاءَ ۚ وَسِعَ كُرْسِيُّهُ السَّمَاوَاتِ وَالْأَرْضَ ۖ وَلَا يَئُودُهُ حِفْظُهُمَا ۚ وَهُوَ الْعَلِيُّ الْعَظِيمُ",
+      "translation": "Allah - there is no deity except Him, the Ever-Living, the Sustainer of [all] existence. Neither drowsiness overtakes Him nor sleep. To Him belongs whatever is in the heavens and whatever is on the earth. Who is it that can intercede with Him except by His permission? He knows what is [presently] before them and what will be after them, and they encompass not a thing of His knowledge except for what He wills. His Kursi (footstool or throne) extends over the heavens and the earth, and their preservation tires Him not. And He is the Most High, the Most Great.",
+      "virtue": "Protection from Shaytan until morning and a guaranteed path to Paradise after death",
+      "recommended": 1,
+      "category": "protection",
+      "isLong": true,
+      "fullText": "Ayatul Kursi (The Verse of the Throne) is verse 255 of Surah Al-Baqarah, the second chapter of the Quran. It stands as one of the most profound and powerful verses in Islamic tradition, containing a magnificent description of Allah's divine attributes, sovereignty, power, knowledge, and protection.\n\nThis verse presents a comprehensive theological framework that outlines core aspects of Islamic monotheism (tawhid) and Allah's relationship with His creation. Ayatul Kursi systematically addresses ten fundamental theological concepts:\n\n1. **Divine Uniqueness (Tawhid)**: \"Allah - there is no deity except Him\" - This establishes absolute monotheism, negating any form of polytheism or partnership with Allah.\n\n2. **Divine Self-Subsistence**: \"the Ever-Living (Al-Hayy), the Sustainer of all existence (Al-Qayyum)\" - These two magnificent names of Allah indicate His eternal life without beginning or end, and that all existence depends on Him while He depends on nothing.\n\n3. **Divine Perfection**: \"Neither drowsiness overtakes Him nor sleep\" - Unlike His creation, Allah is free from all human limitations and weaknesses, including the need for rest.\n\n4. **Divine Sovereignty**: \"To Him belongs whatever is in the heavens and whatever is on the earth\" - Everything in creation belongs to Allah as Creator, Owner, and Sustainer.\n\n5. **Divine Authority**: \"Who is it that can intercede with Him except by His permission?\" - No intercession can occur without Allah's explicit permission, emphasizing His absolute authority.\n\n6. **Divine Knowledge**: \"He knows what is [presently] before them and what will be after them\" - Allah's knowledge encompasses past, present, and future, with nothing hidden from Him.\n\n7. **Divine Incomprehensibility**: \"They encompass not a thing of His knowledge except for what He wills\" - Human beings cannot comprehend Allah's essence or knowledge except what He chooses to reveal.\n\n8. **Divine Dominion**: \"His Kursi extends over the heavens and the earth\" - The Kursi (often translated as Throne or Footstool) symbolizes Allah's dominion over all creation.\n\n9. **Divine Omnipotence**: \"Their preservation tires Him not\" - Allah sustains all creation without any effort, fatigue, or difficulty.\n\n10. **Divine Transcendence**: \"And He is the Most High (Al-Aliyy), the Most Great (Al-Azim)\" - These names emphasize Allah's absolute transcendence above creation.\n\nScholars have noted that Ayatul Kursi likely contains Allah's Greatest Name (Ism Allah al-A'zam), through which when Allah is called upon, He responds. The verse combines attributes of majesty (jalal) and beauty (jamal), presenting a balanced view of Allah's nature.\n\nImam Ibn Kathir mentioned that Ayatul Kursi consists of ten independent statements, each conveying a fundamental aspect of Islamic theology. The structure is perfectly symmetrical, beginning with Allah's name and ending with two of His beautiful names, creating a complete framework for understanding divinity.\n\nThe protective power of Ayatul Kursi has been emphasized throughout Islamic tradition. In a famous incident, Abu Hurayrah was appointed by the Prophet ﷺ to guard charity dates during Ramadan. He caught a thief who claimed to be needy, so Abu Hurayrah released him. This happened three times, and on the third occasion, the thief revealed himself to be Satan but taught Abu Hurayrah that reciting Ayatul Kursi before sleep would provide divine protection throughout the night. When Abu Hurayrah mentioned this to the Prophet ﷺ, he confirmed, \"He told you the truth, although he is a liar. That was Satan.\"",
+      "history": "Ayatul Kursi holds a special place in Islamic tradition, with numerous historical accounts attesting to its significance. The Prophet Muhammad ﷺ specifically highlighted its importance when he declared it to be the greatest verse in the Quran. When asked which verse in the Book of Allah is the greatest, he replied, \"Ayatul Kursi\" (Muslim).\n\nThroughout Islamic history, Ayatul Kursi has been prominently featured in Muslim life and worship. It has been inscribed on mosque walls, included in protective amulets (though with varying scholarly opinions on this practice), recited during significant life events, and taught as one of the first passages of the Quran that children memorize.\n\nScholars across different Islamic schools of thought have consistently emphasized its importance. Imam Al-Qurtubi dedicated an extensive portion of his Quranic exegesis to explain the deep meanings and virtues of this verse. Imam Ibn Taymiyyah considered it a comprehensive statement of Islamic creed (aqidah).\n\nThe Kursi mentioned in the verse has been a subject of scholarly discussion. Ibn Abbas, the Prophet's cousin and renowned Quranic commentator, described the Kursi as the footstool of Allah, while the Arsh (Throne) is far greater in magnitude. However, most scholars avoid literal physical interpretations, understanding these concepts in a manner befitting Allah's majesty without anthropomorphism (tashbih) or negation (ta'til).\n\nIn traditional Islamic societies, Ayatul Kursi became part of daily spiritual protection. It was common practice to recite it after each obligatory prayer, before sleeping, when entering or leaving the home, and during times of fear or distress. Many rulers throughout Islamic history commissioned its calligraphic inscription on buildings and coins as a symbol of divine protection over their domains.\n\nThe verse continues to hold profound significance in contemporary Muslim communities worldwide, transcending cultural, sectarian, and geographical boundaries as a unifying source of spiritual strength and divine connection.",
+      "hadith": [
+        {
+          "text": "\"When you go to your bed, recite Ayatul Kursi, for then there will remain over you a guardian from Allah, and Satan will not come near you until morning.\"",
+          "source": "Bukhari"
+        },
+        {
+          "text": "\"Whoever recites Ayatul Kursi after each obligatory prayer, nothing will prevent him from entering Paradise except death.\"",
+          "source": "Nasa'i"
+        },
+        {
+          "text": "\"In Surah Al-Baqarah there is a verse which is the best verse in the Quran. It is never recited in a house but Satan leaves that house: Ayatul Kursi.\"",
+          "source": "Muslim (narrated by Ubayy ibn Ka'b)"
+        },
+        {
+          "text": "\"The greatest verse in the Book of Allah is Ayatul Kursi.\"",
+          "source": "Muslim (narrated by Ubayy ibn Ka'b)"
+        },
+        {
+          "text": "\"Whoever recites Ayatul Kursi and the end of Surah Al-Baqarah at night, it will suffice him (as protection).\"",
+          "source": "Bukhari"
+        },
+        {
+          "text": "\"Whoever recites ten verses from Surah Al-Baqarah in a night will not have Satan enter his house that night: four from the beginning of the surah, Ayatul Kursi and the two following it, and the last three verses of the surah.\"",
+          "source": "Tabarani"
+        }
+      ],
+      "practicalGuidance": "Times recommended for reciting Ayatul Kursi:\n\n1. After each of the five obligatory prayers\n2. Before going to sleep at night\n3. In the morning and evening remembrances (adhkar)\n4. When entering the home\n5. When beginning a journey\n6. During times of fear or distress\n7. When seeking protection from harm\n8. Before important undertakings\n\nMethod of recitation:\n\n1. Recite with understanding and reflection on its meanings\n2. Recite with presence of heart (khushu'), not merely with the tongue\n3. Recite clearly and without rushing\n4. Maintain proper pronunciation (tajweed rules if possible)\n5. Recite in a state of ritual purity (wudu) when possible\n\nMany scholars recommend placing the right hand on the chest while reciting Ayatul Kursi for protection and then gently wiping over the face and body after completion. This practice is based on the general guidance of the Prophet ﷺ regarding supplication.\n\nImam Ibn al-Qayyim and other scholars have mentioned that the effectiveness of Quranic verses for protection depends on the strength of faith, sincerity, and conviction of the reciter. Therefore, one should recite Ayatul Kursi with complete faith in its protective power as established by the Prophet's teachings.\n\nFor maximum benefit, it is recommended to memorize both the Arabic text and its meaning to achieve deeper connection and understanding during recitation. When reciting for protection of a home, some scholars recommend reciting it in each room of the house.\n\nSpecific benefits reported in authentic traditions include:\n- Protection from Shaytan (Satan) throughout the night when recited before sleeping\n- A guaranteed path to Paradise (except for death itself) when recited after each obligatory prayer\n- Protection of one's home and property\n- Spiritual strength during times of fear or difficulty"
+    }
+  ],
+  "duas": [
+    {
+      "id": "d1",
+      "name": "Morning Supplication",
+      "arabic": "أَصْبَحْنَا وَأَصْبَحَ الْمُلْكُ لِلَّهِ",
+      "translation": "We have reached the morning and the kingdom belongs to Allah.",
+      "reference": "Abu Dawud",
+      "category": "daily",
+      "fullText": "أَصْبَحْنَا وَأَصْبَحَ الْمُلْكُ لِلَّهِ...",
+      "fullTranslation": "We have reached the morning and the kingdom belongs to Allah. All praise is for Allah...",
+      "virtue": "This supplication is recommended by the Prophet for seeking Allah's protection and blessings throughout the day."
+    },
+    {
+      "id": "d2",
+      "name": "Dua for Anxiety and Worry",
+      "arabic": "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْهَمِّ وَالْحَزَنِ",
+      "translation": "O Allah, I seek refuge in You from anxiety and sorrow.",
+      "reference": "Bukhari",
+      "category": "protection",
+      "fullText": "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْهَمِّ وَالْحَزَنِ",
+      "fullTranslation": "O Allah, I seek refuge in You from anxiety and sorrow.",
+      "virtue": "The Prophet frequently recited this dua to seek protection from emotional and spiritual challenges."
+    },
+    {
+      "id": "d3",
+      "name": "Dua before Sleep",
+      "arabic": "بِاسْمِكَ اللَّهُمَّ أَمُوتُ وَأَحْيَا",
+      "translation": "In Your name, O Allah, I die and I live.",
+      "reference": "Bukhari",
+      "category": "daily",
+      "fullText": "بِاسْمِكَ اللَّهُمَّ أَمُوتُ وَأَحْيَا",
+      "fullTranslation": "In Your name, O Allah, I die and I live.",
+      "virtue": "The Prophet taught this dua to be recited before sleeping, acknowledging Allah's control over life and death."
+    },
+    {
+      "id": "d4",
+      "name": "Dua for Knowledge",
+      "arabic": "رَبِّ زِدْنِي عِلْمًا",
+      "translation": "My Lord, increase me in knowledge.",
+      "reference": "Quran 20:114",
+      "category": "special",
+      "fullText": "رَبِّ زِدْنِي عِلْمًا",
+      "fullTranslation": "My Lord, increase me in knowledge.",
+      "virtue": "This powerful dua emphasizes the importance of seeking beneficial knowledge in Islam."
+    },
+    {
+      "id": "d5",
+      "name": "Dua for Protection from the Evil Eye",
+      "arabic": "أَعُوذُ بِكَلِمَاتِ اللَّهِ التَّامَّةِ",
+      "translation": "I seek refuge in the perfect words of Allah from the evil of what He has created.",
+      "reference": "Muslim",
+      "category": "protection",
+      "fullText": "أَعُوذُ بِكَلِمَاتِ اللَّهِ التَّامَّةِ",
+      "fullTranslation": "I seek refuge in the perfect words of Allah from the evil of what He has created.",
+      "virtue": "The Prophet said that reciting this dua three times in the evening provides protection from harm."
+    },
+    {
+      "id": "d6",
+      "name": "Dua When Entering the Mosque",
+      "arabic": "اللَّهُمَّ افْتَحْ لِي أَبْوَابَ رَحْمَتِكَ",
+      "translation": "O Allah, open for me the doors of Your mercy.",
+      "reference": "Muslim",
+      "category": "special",
+      "fullText": "اللَّهُمَّ افْتَحْ لِي أَبْوَابَ رَحْمَتِكَ",
+      "fullTranslation": "O Allah, open for me the doors of Your mercy.",
+      "virtue": "This dua is recited when entering the mosque, seeking Allah's mercy and blessings."
+    },
+    {
+      "id": "d7",
+      "name": "Dua When Leaving the Mosque",
+      "arabic": "اللَّهُمَّ إِنِّي أَسْأَلُكَ مِنْ فَضْلِكَ",
+      "translation": "O Allah, I ask You for Your bounty.",
+      "reference": "Muslim",
+      "category": "special",
+      "fullText": "اللَّهُمَّ إِنِّي أَسْأَلُكَ مِنْ فَضْلِكَ",
+      "fullTranslation": "O Allah, I ask You for Your bounty.",
+      "virtue": "Recited when leaving the mosque, this dua acknowledges that all good comes from Allah."
+    },
+    {
+      "id": "d8",
+      "name": "Dua for Forgiveness",
+      "arabic": "رَبَّنَا اغْفِرْ لِي وَلِوَالِدَيَّ وَلِلْمُؤْمِنِينَ",
+      "translation": "Our Lord, forgive me and my parents and the believers.",
+      "reference": "Quran 14:41",
+      "category": "special",
+      "fullText": "رَبَّنَا اغْفِرْ لِي وَلِوَالِدَيَّ وَلِلْمُؤْمِنِينَ",
+      "fullTranslation": "Our Lord, forgive me and my parents and the believers on the Day when the reckoning will be established.",
+      "virtue": "This dua emphasizes the importance of seeking forgiveness not just for oneself but also for parents and all believers."
+    },
+    {
+      "id": "d9",
+      "name": "Dua for Protection When Leaving Home",
+      "arabic": "بِسْمِ اللَّهِ، تَوَكَّلْتُ عَلَى اللَّهِ",
+      "translation": "In the name of Allah, I place my trust in Allah.",
+      "reference": "Abu Dawud, Tirmidhi",
+      "category": "protection",
+      "fullText": "بِسْمِ اللَّهِ، تَوَكَّلْتُ عَلَى اللَّهِ",
+      "fullTranslation": "In the name of Allah, I place my trust in Allah, and there is no might nor power except with Allah.",
+      "virtue": "This dua provides divine protection and assistance during our journeys outside the home."
+    },
+    {
+      "id": "d10",
+      "name": "Dua for Relief from Distress",
+      "arabic": "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْحُزْنِ",
+      "translation": "O Allah, I seek refuge in You from grief.",
+      "reference": "Bukhari",
+      "category": "protection",
+      "fullText": "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْحُزْنِ",
+      "fullTranslation": "O Allah, I seek refuge in You from grief, anxiety, and sorrow.",
+      "virtue": "This dua is recited to seek relief from emotional pain and distress."
+    },
+    {
+      "id": "d11",
+      "name": "Dua for Guidance",
+      "arabic": "اللَّهُمَّ اهْدِنِي وَاهْدِ بِي",
+      "translation": "O Allah, guide me and guide others through me.",
+      "reference": "Tirmidhi",
+      "category": "special",
+      "fullText": "اللَّهُمَّ اهْدِنِي وَاهْدِ بِي",
+      "fullTranslation": "O Allah, guide me and guide others through me.",
+      "virtue": "This dua emphasizes the importance of seeking guidance from Allah and being a source of guidance for others."
+    },
+    {
+      "id": "d12",
+      "name": "Dua for Good Health",
+      "arabic": "اللَّهُمَّ إِنِّي أَسْأَلُكَ عَافِيَةً فِي الدُّنْيَا وَالْآخِرَةِ",
+      "translation": "O Allah, I ask You for well-being in this world and the Hereafter.",
+      "reference": "Tirmidhi",
+      "category": "daily",
+      "fullText": "اللَّهُمَّ إِنِّي أَسْأَلُكَ عَافِيَةً فِي الدُّنْيَا وَالْآخِرَةِ",
+      "fullTranslation": "O Allah, I ask You for well-being in this world and the Hereafter.",
+      "virtue": "This dua is a request for health and well-being in both this life and the next."
+    }
+  ]
+}
