@@ -1,43 +1,47 @@
-import { Feather, FontAwesome5 } from "@expo/vector-icons";
+import { Feather, FontAwesome5, Ionicons } from "@expo/vector-icons";
+import { BottomTabBarProps } from "@react-navigation/bottom-tabs";
 import { LinearGradient } from "expo-linear-gradient";
 import { Tabs } from "expo-router";
 import React, { useEffect, useRef } from "react";
-import { Animated, StyleSheet, TouchableOpacity, View } from "react-native";
+import {
+  Animated,
+  StatusBar,
+  StyleSheet,
+  TouchableOpacity,
+  View
+} from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 
-// Custom Tab Bar Button with Animation
-function TabButton({ label, isFocused, onPress, icon }) {
+interface TabButtonProps {
+  label: string;
+  isFocused: boolean;
+  onPress: () => void;
+  icon: (active: boolean) => React.ReactNode;
+}
+
+// Tab Button Component (No changes needed)
+function TabButton({
+  label,
+  isFocused,
+  onPress,
+  icon,
+}: TabButtonProps): JSX.Element {
   const scaleAnimation = useRef(new Animated.Value(1)).current;
   const opacityAnimation = useRef(new Animated.Value(0.7)).current;
 
   useEffect(() => {
-    if (isFocused) {
-      Animated.parallel([
-        Animated.timing(scaleAnimation, {
-          toValue: 1.2,
-          duration: 300,
-          useNativeDriver: true,
-        }),
-        Animated.timing(opacityAnimation, {
-          toValue: 1,
-          duration: 300,
-          useNativeDriver: true,
-        }),
-      ]).start();
-    } else {
-      Animated.parallel([
-        Animated.timing(scaleAnimation, {
-          toValue: 1,
-          duration: 300,
-          useNativeDriver: true,
-        }),
-        Animated.timing(opacityAnimation, {
-          toValue: 0.7,
-          duration: 300,
-          useNativeDriver: true,
-        }),
-      ]).start();
-    }
+    Animated.parallel([
+      Animated.timing(scaleAnimation, {
+        toValue: isFocused ? 1.2 : 1,
+        duration: 300,
+        useNativeDriver: true,
+      }),
+      Animated.timing(opacityAnimation, {
+        toValue: isFocused ? 1 : 0.7,
+        duration: 300,
+        useNativeDriver: true,
+      }),
+    ]).start();
   }, [isFocused]);
 
   return (
@@ -81,10 +85,9 @@ function TabButton({ label, isFocused, onPress, icon }) {
   );
 }
 
-// Custom Tab Bar
-function CustomTabBar({ state, descriptors, navigation }) {
+// Custom Tab Bar with 4 Icons
+function CustomTabBar({ state, descriptors, navigation }: BottomTabBarProps) {
   const insets = useSafeAreaInsets();
-
   return (
     <View
       style={[styles.tabBarContainer, { paddingBottom: insets.bottom || 10 }]}
@@ -92,53 +95,58 @@ function CustomTabBar({ state, descriptors, navigation }) {
       <View style={styles.tabBarContent}>
         {state.routes.map((route, index) => {
           const { options } = descriptors[route.key];
-          const label = options.tabBarLabel || options.title || route.name;
-
+          const label = String(
+            options.tabBarLabel || options.title || route.name
+          );
           const isFocused = state.index === index;
-
           const onPress = () => {
             const event = navigation.emit({
               type: "tabPress",
               target: route.key,
               canPreventDefault: true,
             });
-
-            if (!isFocused && !event.defaultPrevented) {
+            if (!isFocused && !event.defaultPrevented)
               navigation.navigate(route.name);
-            }
           };
 
-          // Get the icon based on the route name (case-insensitive matching)
           const routeName = route.name.toLowerCase();
           let iconRenderer;
-          
-          if (routeName.includes('quran')) {
-            iconRenderer = (active) => (
+
+          if (routeName.includes("quran")) {
+            iconRenderer = (active: boolean) => (
               <Feather
                 name="book-open"
                 size={26}
                 color={active ? "#FFFFFF" : "#0D4B26"}
               />
             );
-          } else if (routeName.includes('tasbeeh')) {
-            iconRenderer = (active) => (
+          } else if (routeName.includes("tasbeeh")) {
+            iconRenderer = (active: boolean) => (
               <FontAwesome5
                 name="pray"
                 size={26}
                 color={active ? "#FFFFFF" : "#0D4B26"}
               />
             );
-          } else if (routeName.includes('qibla')) {
-            iconRenderer = (active) => (
+          } else if (routeName.includes("qibla")) {
+            iconRenderer = (active: boolean) => (
               <Feather
                 name="compass"
                 size={26}
                 color={active ? "#FFFFFF" : "#0D4B26"}
               />
             );
+          } else if (routeName.includes("author")) {
+            // THE NEW AUTHOR ICON
+            iconRenderer = (active: boolean) => (
+              <Feather
+                name="user"
+                size={26}
+                color={active ? "#FFFFFF" : "#0D4B26"}
+              />
+            );
           } else {
-            // Default icon as fallback
-            iconRenderer = (active) => (
+            iconRenderer = (active: boolean) => (
               <Feather
                 name="circle"
                 size={26}
@@ -162,41 +170,58 @@ function CustomTabBar({ state, descriptors, navigation }) {
   );
 }
 
-export default function TabLayout() {
+// Main Layout Component (Simplified)
+export default function TabLayout({ navigation }: { navigation: any }): JSX.Element {
   return (
-    <Tabs
-      screenOptions={{
-        // Remove the header completely for all screens
-        headerShown: false,
-        tabBarShowLabel: false,
-      }}
-      tabBar={(props) => <CustomTabBar {...props} />}
-    >
-      <Tabs.Screen
-        name="Qibla"
-        options={{
-          title: "Qibla",
-          tabBarLabel: "Qibla",
+    <>
+      <StatusBar backgroundColor="#FFFFFF" barStyle="dark-content" />
+      <Tabs
+        screenOptions={{
+          headerShown: false, // Hide all headers for a clean look
+          tabBarShowLabel: false,
         }}
-      />
-      <Tabs.Screen
-        name="Quran"
-        options={{
-          title: "Quran",
-          tabBarLabel: "Quran",
-        }}
-      />
-      <Tabs.Screen
-        name="Tasbeeh"
-        options={{
-          title: "Tasbeeh",
-          tabBarLabel: "Tasbeeh",
-        }}
-      />
-    </Tabs>
+        tabBar={(props) => <CustomTabBar {...props} />}
+      >
+        <Tabs.Screen 
+          name="Qibla" 
+          options={{ 
+            tabBarLabel: "Qibla", 
+            headerLeft: () => (
+              <TouchableOpacity onPress={() => navigation.navigate('author')}>
+                <Ionicons name="menu" size={24} color="#0D4B26" />
+              </TouchableOpacity>
+            )
+          }} 
+        />
+        <Tabs.Screen 
+          name="Quran" 
+          options={{ 
+            tabBarLabel: "Quran" 
+          }} 
+        />
+        <Tabs.Screen 
+          name="Tasbeeh" 
+          options={{ 
+            tabBarLabel: "Tasbeeh", 
+            headerLeft: () => (
+              <TouchableOpacity onPress={() => navigation.navigate('author')}>
+                <Ionicons name="menu" size={24} color="#0D4B26" />
+              </TouchableOpacity>
+            )
+          }} 
+        />
+        <Tabs.Screen 
+          name="Author" 
+          options={{ 
+            tabBarLabel: "Author" 
+          }} 
+        />
+      </Tabs>
+    </>
   );
 }
 
+// Styles
 const styles = StyleSheet.create({
   tabBarContainer: {
     backgroundColor: "#F8F8F8",
@@ -230,7 +255,6 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
     padding: 8,
-    position: "relative",
     height: "100%",
   },
   iconContainer: {
@@ -260,8 +284,5 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: "#E8E8E8",
   },
-  tabLabel: {
-    fontSize: 12,
-    marginTop: 2,
-  },
+  tabLabel: { fontSize: 12, marginTop: 2 },
 });
